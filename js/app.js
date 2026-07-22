@@ -300,3 +300,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+window.addEventListener("load",()=>{
+
+document.getElementById("loader")
+.style.display="none";
+
+});
